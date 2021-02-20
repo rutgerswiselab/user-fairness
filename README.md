@@ -29,10 +29,11 @@ Gurobi==9.0.2
 ## Datasets
 
 - The processed datasets are in  [`./dataset/`](https://github.com/rutgerswiselab/user-fairness/tree/master/dataset)
-- For each dataset directory contains processed testing datasets for re-ranking. 
--- test
 - **Amazon Datasets**: The origin dataset can be found [here](http://jmcauley.ucsd.edu/data/amazon/). 
-    
+- For each dataset directory contains processed splitted testing datasets for re-ranking. 
+    * 0.05_count_\*\_test_ratings.txt: grouping by total number of interactions.
+    * sum_0.05_price_\*\_test_ratings.txt: grouping by total consumption.
+    * max_0.05_price_\*\_test_ratings.txt: grouping by maximum price.
 
 ## Example to run the codes
 -   
