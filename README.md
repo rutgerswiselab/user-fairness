@@ -46,6 +46,7 @@ Gurobi==9.0.2
     - **group\_name\_title**: select from "0.05" (interaction), "max\_0.05"(max price) and "sum\_0.05"(total consumption)
     - **group\_1\_file**: select from "\_count\_active\_test\_ratings.txt" (interaction), "\_price\_active\_test\_ratings.txt" (max price/total consumption)
     - **group\_2\_file**: select from "\_count\_inactive\_test\_ratings.txt" (interaction), "\_price\_inactive\_test\_ratings.txt" (max price/total consumption)
+- You can chage the variable *epsilon* to control the strictness for fairness. 
 
 ### Run
 ```
